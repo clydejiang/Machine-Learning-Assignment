@@ -1,4 +1,4 @@
-# Linear Regression Project
+# Assignment 1: Linear Regression Project
 
 ## Overview
 
@@ -11,14 +11,4 @@ This project implements a simple linear regression model from scratch to predict
 - Compute the gradient for parameters `w` (weight) and `b` (bias).
 - Implement gradient descent to minimize the cost function.
 
-## Getting Started
 
-### Prerequisites
-
-- Python 3.x
-- NumPy library
-
-Ensure you have Python installed on your machine. NumPy can be installed using pip:
-
-```bash
-pip install numpy
