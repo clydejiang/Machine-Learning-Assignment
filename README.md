@@ -37,3 +37,17 @@ This repository contains Python functions designed to assist in the construction
 - Dataset Splitting: A utility that divides the dataset into left and right branches based on a specified feature. This is essential for recursively constructing the branches of the decision tree.
 - Information Gain Computation: A mechanism to calculate the information gain from splitting on each feature, guiding the selection of the most informative feature at each node.
 - Best Feature Identification: An algorithm to iterate through all features, applying the information gain computation to identify the feature that maximally reduces uncertainty (or entropy) upon splitting.
+
+  
+# Assignment 4: K-means Image Compression
+
+## Overview
+
+This project demonstrates the implementation and application of the K-means clustering algorithm for the purpose of image compression. By reducing the number of colors in an image to a select few that best represent the original palette, we achieve significant compression with minimal loss of quality. This repository contains Python code that guides you through the process of K-means clustering from the basics of finding the closest centroids and computing new centroid means, to applying the algorithm for compressing an image.
+
+### Features
+- K-means Clustering Implementation: Step-by-step Python implementation of the K-means algorithm, including finding the closest centroids and updating centroids based on cluster assignments.
+- Visual Understanding: Code to visualize the clustering process on a 2D dataset, providing an intuitive grasp of K-means algorithm iterations and convergence.
+- Random Initialization: Utilizes random initialization of centroids to enhance the algorithm's efficiency and effectiveness, avoiding the pitfalls of poor initial centroid placement.
+- Image Compression Application: Demonstrates the application of K-means clustering for reducing the color palette of an image, effectively compressing the image without significant loss of visual fidelity.
+- Efficient Data Representation: Compresses images by reducing the 24-bit color representation to a manageable number of colors, demonstrating a practical application of cluster analysis in data compression.
