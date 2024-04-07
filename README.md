@@ -51,3 +51,16 @@ This project demonstrates the implementation and application of the K-means clus
 - Random Initialization: Utilizes random initialization of centroids to enhance the algorithm's efficiency and effectiveness, avoiding the pitfalls of poor initial centroid placement.
 - Image Compression Application: Demonstrates the application of K-means clustering for reducing the color palette of an image, effectively compressing the image without significant loss of visual fidelity.
 - Efficient Data Representation: Compresses images by reducing the 24-bit color representation to a manageable number of colors, demonstrating a practical application of cluster analysis in data compression.
+
+# Assignment 5: Collaborative Filtering Recommender Systems
+
+## Overview
+
+Collaborative filtering stands at the core of modern recommender systems, predicting user ratings for items based on the preferences of similar users and item characteristics. This implementation focuses on learning parameter vectors for both users and movies, along with user bias terms, to predict how a user might rate movies they haven't seen.
+
+### Features
+Custom Training Loop: Implements a bespoke training loop using TensorFlow's GradientTape for flexible and efficient gradient computation and parameter updates.
+Dataset: Utilizes the "ml-latest-small" dataset from MovieLens, focusing on movies released since the year 2000, comprising ratings from 443 users across 4,778 movies.
+Cost Function: Includes a custom cost function that incorporates both prediction error and regularization to prevent overfitting, optimizing for a balance between accuracy and model generalization.
+Parameter Learning: Simultaneously learns movie feature vectors, user parameter vectors, and user biases to predict ratings, capturing the nuanced interplay between user preferences and movie features.
+TensorFlow Integration: Leverages TensorFlow for its powerful automatic differentiation capabilities, streamlining the implementation of the learning algorithm.
